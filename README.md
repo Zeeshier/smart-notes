@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="images/logo.png" alt="Smart Notes Logo" width="400">
+  <img src="assets/images/logo.png" alt="Smart Notes Logo" width="300">
   <h1>Smart Notes App 🧠 - Capture, Scan & Organize Your Ideas</h1>
 
 ![License](https://img.shields.io/badge/license-MIT-green)
