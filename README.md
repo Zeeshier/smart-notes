@@ -28,6 +28,9 @@ Organize, categorize, and manage all your thoughts, ideas, and tasks seamlessly 
 - 🔍 **Search Functionality** – Instantly find any note by keyword.  
 - ☁️ **Cloud Sync** – Save and sync notes using Firebase.  
 - 🖼️ **Image Attachments** – Add and preview images within notes.  
+- 🌍 **Multi-language Support** – Available in English, Spanish, and French.  
+- 👁️ **Accessibility Features** – Dedicated Color Blind Mode for better visibility.  
+- 👤 **Profile Management** – Manage personal details and change passwords securely.  
 - 🌙 **Dark/Light Mode** – Beautiful and adaptive interface.  
 
 ---
@@ -82,16 +85,20 @@ Smart-Notes-App/
 │   │   ├── splash_screen.dart
 │   │   ├── login_screen.dart
 │   │   ├── signup_screen.dart
-│   │   ├── home_screen.dart
-│   │   ├── add_note_screen.dart
-│   │   ├── note_detail_screen.dart
+│   │   ├── my_notes_screen.dart
+│   │   ├── new_note_screen.dart
+│   │   ├── note_details_screen.dart
 │   │   ├── edit_note_screen.dart
 │   │   ├── ocr_scan_screen.dart
-│   │   └── ocr_result_screen.dart
+│   │   ├── extracted_text_screen.dart
+│   │   ├── profile_screen.dart
+│   │   ├── settings_screen.dart
+│   │   ├── verify_otp_screen.dart
+│   │   └── set_new_password_screen.dart
 │   ├── models/            # Note, user, etc.
 │   ├── services/          # Firebase & ML Kit services
 │   ├── widgets/           # Reusable components
-│   └── utils/             # Helpers and constants
+│   └── utils/             # Helpers, constants, and localization
 ├── android/               # Android build files
 ├── ios/                   # iOS build files
 ├── pubspec.yaml           # Dependencies
@@ -111,6 +118,10 @@ Smart-Notes-App/
 3. **Smart Categorization**
    - Organizes notes into Work, Personal, and Ideas.
    - Enables easy filtering and quick search.
+
+4. **Localization & Accessibility**
+   - Supports multiple languages (EN, ES, FR) for global accessibility.
+   - Includes a Color Blind Mode to assist users with visual impairments.
    
 ---
 
@@ -127,7 +138,9 @@ Smart-Notes-App/
 | **Edit Note**    | Modify and save existing note                 |
 | **OCR Scan**     | Live camera for text extraction               |
 | **OCR Result**   | Preview and save extracted text               |
-| **Settings**     | Dark mode toggle and user profile management  |
+| **Profile**      | Update user details and view stats            |
+| **Settings**     | Toggle themes, language, and color blind mode |
+| **Security**     | OTP verification and Password reset flow      |
 
 ---
 ## 🧱 Figma Design
