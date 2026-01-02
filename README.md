@@ -10,13 +10,23 @@
 ![UI/UX](https://img.shields.io/badge/Design-Figma-purple?logo=figma)
 </div>
 
----
+--- 
+
+## 📱 Interface Preview
+
+<div align="center">
+  <img src="assets/screenshots/app_preview.png" alt="Smart Notes App Screenshots" width="800" style="border-radius: 12px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);">
+</div>
+
+
 
 ## 🧩 Project Overview
 
 **Smart Notes App** is an AI-powered productivity tool designed to make note-taking smarter, faster, and more intuitive.  
 With **OCR (Optical Character Recognition)** powered by **Google ML Kit**, you can scan handwritten or printed text directly into your digital notebook.  
 Organize, categorize, and manage all your thoughts, ideas, and tasks seamlessly — all within one app.
+
+
 
 ---
 
